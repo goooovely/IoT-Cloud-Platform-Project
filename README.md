@@ -9,13 +9,13 @@
   - #define LED_GREEN 8
   - #define SPEAKER 5
   
- - arduinio_secrets.h 파일을 알맞게 구성합니다.
+- arduinio_secrets.h 파일을 알맞게 구성합니다.
   - SECRET_SSID : 와이파이 이름
   - SECRET_PASS : 와이파이 비밀 번호
   - SECRET_BROKER : 'AWS > 서비스 > IoT Core > 설정'의 엔드포인트
   - SECRET_CERTIFICATE : 'AWS > 서비스 > IAM > 사용자'의 certificate.pem 파일 참조
   
- - 측정된 거리값에 따라 LED와 피에조 부저가 제어됩니다.
+- 측정된 거리값에 따라 LED와 피에조 부저가 제어됩니다.
   - 거리 20cm 초과 : 초록색 LED
   - 거리 20cm 이하 : 노란색 LED + 낮고 느린 효과음
   - 거리 10cm 이하 : 빨간색 LED + 높고 빠른 효과음
